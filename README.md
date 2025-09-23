@@ -115,7 +115,7 @@ This will start:
 
 ### Access the Application
 
-1. **Open your browser** and navigate to: http://localhost:8080
+1. **Open your browser** and navigate to:  http://localhost:5173 
 2. **Browse products** in the catalog
 3. **Add items to cart** and click "Proceed to Checkout"
 4. **Enter payment details** using the test card numbers below
