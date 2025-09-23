@@ -104,6 +104,7 @@ PORT=8080
 From the root directory, run:
 
 Frontend: npm run dev
+
 Backend: npm start
 
 This will start:
@@ -178,30 +179,6 @@ The complete payment flow follows these steps:
 - Success or failure modal displays to customer
 - Transaction is complete
 
-## 📊 Flowchart
-
-![Yuno Payment Flow](https://via.placeholder.com/800x600/4A90E2/FFFFFF?text=Yuno+SDK+FULL+Payment+Flow+Diagram)
-
-*Note: Replace the placeholder above with your actual flowchart image showing the complete payment flow from customer input to final result display.*
-
-## 🛠️ Development Scripts
-
-```bash
-# Start both frontend and backend
-npm run dev
-
-# Start only backend server
-npm run backend
-
-# Start only frontend development server
-npm run frontend
-
-# Build React app for production
-npm run build
-
-# Install all dependencies
-npm run install:all
-```
 
 ## 🔐 Security Features
 
