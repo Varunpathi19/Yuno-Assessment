@@ -66,8 +66,8 @@ backclone/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd backclone
+git clone <https://github.com/Varunpathi19/Yuno-Assessment>
+cd yuno-sdk-web 
 ```
 
 ### 2. Install Dependencies
@@ -103,10 +103,8 @@ PORT=8080
 
 From the root directory, run:
 
-```bash
-# Start both backend and frontend simultaneously
-npm run dev
-```
+Frontend: npm run dev
+Backend: npm start
 
 This will start:
 - **Backend server**: http://localhost:8080
