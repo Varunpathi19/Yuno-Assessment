@@ -110,7 +110,6 @@ Backend: npm start
 This will start:
 - **Backend server**: http://localhost:8080
 - **Frontend development**: http://localhost:5173 (in development mode)
-- **Production build**: http://localhost:8080 (serves built React app)
 
 ## 🧪 How to Run Demo
 
