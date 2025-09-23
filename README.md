@@ -31,7 +31,7 @@ This demo implements a complete e-commerce payment solution using Yuno's SDK FUL
 ## 📁 Project Structure
 
 ```
-backclone/
+yuno-sdk-web
 ├── package.json                    # Root package with dev scripts
 ├── yuno-sdk-web/                  # Backend server
 │   ├── server.js                  # Express.js server with Yuno API integration
