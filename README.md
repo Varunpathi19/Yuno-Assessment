@@ -1,4 +1,4 @@
-# 💳 Yuno SDK FULL Integration Demo
+# 💳 Yuno Assessment
 
 A comprehensive demonstration of end-to-end credit card payment processing using Yuno's SDK FULL for technical assessment purposes. This project showcases the complete payment flow from frontend checkout to backend processing and Yuno API integration.
 
