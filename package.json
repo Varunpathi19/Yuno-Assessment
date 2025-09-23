@@ -1,0 +1,15 @@
+{
+  "name": "yuno-sdk-integrated",
+  "version": "1.0.0",
+  "description": "Integrated Yuno SDK with React frontend and Express backend",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd yuno-sdk-web && npm run start:dev",
+    "frontend": "cd yuno-sdk-web/yuno-react && npm run dev",
+    "build": "cd yuno-sdk-web/yuno-react && npm run build",
+    "install:all": "npm install && cd yuno-sdk-web && npm install && cd yuno-react && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
