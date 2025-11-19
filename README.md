@@ -192,10 +192,10 @@ The complete payment flow follows these steps:
 
 ### Backend Endpoints
 
-- `GET /public-api-key` - Retrieve Yuno public API key
-- `POST /checkout/sessions` - Create checkout session
-- `POST /payments` - Process payment with token
-- `POST /customers/sessions` - Create customer session
+- `POST /api/checkout/sessions` - Session creation
+- `GET /api-sandbox.y.uno/v1/sdk/checkout/sessions` - Retrieve Yuno public API key
+- `POST /api-sandbox.y.uno/v1/checkout/sessions` - Create token
+- `POST /api/payments` - Process payment with token and preview sucess
 
 
 **Built with ❤️ using React, Express.js, and Yuno SDK FULL**
